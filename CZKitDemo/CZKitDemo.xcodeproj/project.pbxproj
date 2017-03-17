@@ -41,10 +41,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18C64BA91E7B89FB001A1017 /* CZKit */ = {
+			isa = PBXGroup;
+			children = (
+				18C64BAA1E7B89FB001A1017 /* Category */,
+				18C64BAB1E7B89FB001A1017 /* Utility */,
+				18C64BAC1E7B89FB001A1017 /* View */,
+			);
+			path = CZKit;
+			sourceTree = "<group>";
+		};
+		18C64BAA1E7B89FB001A1017 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		18C64BAB1E7B89FB001A1017 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18C64BAC1E7B89FB001A1017 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C64BAD1E7B8A31001A1017 /* DemoVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DemoVC;
+			sourceTree = "<group>";
+		};
 		18E4E2A11E7A63A10058716B = {
 			isa = PBXGroup;
 			children = (
 				18E4E2AC1E7A63A10058716B /* CZKitDemo */,
+				18C64BA91E7B89FB001A1017 /* CZKit */,
 				18E4E2AB1E7A63A10058716B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +108,7 @@
 				18E4E2BB1E7A63A10058716B /* LaunchScreen.storyboard */,
 				18E4E2BE1E7A63A10058716B /* Info.plist */,
 				18C64BA71E7B86E8001A1017 /* DemoVCList.plist */,
+				18C64BAD1E7B8A31001A1017 /* DemoVC */,
 				18E4E2AD1E7A63A10058716B /* Supporting Files */,
 			);
 			path = CZKitDemo;

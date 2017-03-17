@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C64BA71E7B86E8001A1017 /* DemoVCList.plist */; };
 		18E4E2AF1E7A63A10058716B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E2AE1E7A63A10058716B /* main.m */; };
 		18E4E2B21E7A63A10058716B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E2B11E7A63A10058716B /* AppDelegate.m */; };
 		18E4E2B51E7A63A10058716B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E2B41E7A63A10058716B /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18C64BA71E7B86E8001A1017 /* DemoVCList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DemoVCList.plist; sourceTree = "<group>"; };
 		18E4E2AA1E7A63A10058716B /* CZKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E4E2AE1E7A63A10058716B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E4E2B01E7A63A10058716B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				18E4E2B91E7A63A10058716B /* Assets.xcassets */,
 				18E4E2BB1E7A63A10058716B /* LaunchScreen.storyboard */,
 				18E4E2BE1E7A63A10058716B /* Info.plist */,
+				18C64BA71E7B86E8001A1017 /* DemoVCList.plist */,
 				18E4E2AD1E7A63A10058716B /* Supporting Files */,
 			);
 			path = CZKitDemo;
@@ -137,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */,
 				18E4E2BD1E7A63A10058716B /* LaunchScreen.storyboard in Resources */,
 				18E4E2BA1E7A63A10058716B /* Assets.xcassets in Resources */,
 				18E4E2B81E7A63A10058716B /* Main.storyboard in Resources */,
@@ -311,6 +315,7 @@
 				18E4E2C31E7A63A10058716B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

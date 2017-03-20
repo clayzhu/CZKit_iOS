@@ -10,5 +10,7 @@
 #define CZKit_h
 
 #import "CZLaunchVC.h"
+#import "CZImageCache.h"
+#import "UIColor+CZColor.h"
 
 #endif /* CZKit_h */

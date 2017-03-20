@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736411E7F789F00B45C15 /* CZLaunchVC.m */; };
 		18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18C64BA71E7B86E8001A1017 /* DemoVCList.plist */; };
 		18E4E2AF1E7A63A10058716B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E2AE1E7A63A10058716B /* main.m */; };
 		18E4E2B21E7A63A10058716B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4E2B11E7A63A10058716B /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189736401E7F789F00B45C15 /* CZLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLaunchVC.h; sourceTree = "<group>"; };
+		189736411E7F789F00B45C15 /* CZLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLaunchVC.m; sourceTree = "<group>"; };
 		18C64BA71E7B86E8001A1017 /* DemoVCList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DemoVCList.plist; sourceTree = "<group>"; };
 		18E4E2AA1E7A63A10058716B /* CZKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E4E2AE1E7A63A10058716B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1897363F1E7F789F00B45C15 /* CZLaunchVC */ = {
+			isa = PBXGroup;
+			children = (
+				189736401E7F789F00B45C15 /* CZLaunchVC.h */,
+				189736411E7F789F00B45C15 /* CZLaunchVC.m */,
+			);
+			path = CZLaunchVC;
+			sourceTree = "<group>";
+		};
 		18C64BA91E7B89FB001A1017 /* CZKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 		18C64BAC1E7B89FB001A1017 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1897363F1E7F789F00B45C15 /* CZLaunchVC */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */,
 				18E4E2B51E7A63A10058716B /* ViewController.m in Sources */,
 				18E4E2B21E7A63A10058716B /* AppDelegate.m in Sources */,
 				18E4E2AF1E7A63A10058716B /* main.m in Sources */,

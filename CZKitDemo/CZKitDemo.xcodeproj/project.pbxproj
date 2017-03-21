@@ -13,6 +13,11 @@
 		18087EB61E811DD300D1CF69 /* CZImageCacheDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EB41E811DD300D1CF69 /* CZImageCacheDemoVC.xib */; };
 		18087EBA1E811E0900D1CF69 /* CZColorDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18087EB81E811E0900D1CF69 /* CZColorDemoVC.m */; };
 		18087EBB1E811E0900D1CF69 /* CZColorDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EB91E811E0900D1CF69 /* CZColorDemoVC.xib */; };
+		18087EC11E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18087EBC1E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 */; };
+		18087EC21E8123FE00D1CF69 /* Hotel-California_-Short-The-Eagles.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18087EBD1E8123FE00D1CF69 /* Hotel-California_-Short-The-Eagles.gif */; };
+		18087EC31E8123FE00D1CF69 /* launch0.png in Resources */ = {isa = PBXBuildFile; fileRef = 18087EBE1E8123FE00D1CF69 /* launch0.png */; };
+		18087EC41E8123FE00D1CF69 /* launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18087EBF1E8123FE00D1CF69 /* launch1.png */; };
+		18087EC51E8123FE00D1CF69 /* launch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18087EC01E8123FE00D1CF69 /* launch2.png */; };
 		189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736411E7F789F00B45C15 /* CZLaunchVC.m */; };
 		1897366E1E7FB25E00B45C15 /* UIColor+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897366D1E7FB25E00B45C15 /* UIColor+CZColor.m */; };
 		189736721E7FB2DB00B45C15 /* CZImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736711E7FB2DB00B45C15 /* CZImageCache.m */; };
@@ -35,6 +40,11 @@
 		18087EB71E811E0900D1CF69 /* CZColorDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZColorDemoVC.h; sourceTree = "<group>"; };
 		18087EB81E811E0900D1CF69 /* CZColorDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZColorDemoVC.m; sourceTree = "<group>"; };
 		18087EB91E811E0900D1CF69 /* CZColorDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZColorDemoVC.xib; sourceTree = "<group>"; };
+		18087EBC1E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hotel California_ Short - The Eagles.mp4"; sourceTree = "<group>"; };
+		18087EBD1E8123FE00D1CF69 /* Hotel-California_-Short-The-Eagles.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Hotel-California_-Short-The-Eagles.gif"; sourceTree = "<group>"; };
+		18087EBE1E8123FE00D1CF69 /* launch0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch0.png; sourceTree = "<group>"; };
+		18087EBF1E8123FE00D1CF69 /* launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch1.png; sourceTree = "<group>"; };
+		18087EC01E8123FE00D1CF69 /* launch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2.png; sourceTree = "<group>"; };
 		189736401E7F789F00B45C15 /* CZLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLaunchVC.h; sourceTree = "<group>"; };
 		189736411E7F789F00B45C15 /* CZLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLaunchVC.m; sourceTree = "<group>"; };
 		189736431E7F796300B45C15 /* CZKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZKit.h; sourceTree = "<group>"; };
@@ -69,6 +79,11 @@
 		18087EAA1E811A8A00D1CF69 /* CZLaunchVCDemoVC */ = {
 			isa = PBXGroup;
 			children = (
+				18087EBC1E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 */,
+				18087EBD1E8123FE00D1CF69 /* Hotel-California_-Short-The-Eagles.gif */,
+				18087EBE1E8123FE00D1CF69 /* launch0.png */,
+				18087EBF1E8123FE00D1CF69 /* launch1.png */,
+				18087EC01E8123FE00D1CF69 /* launch2.png */,
 				18087EAB1E811ABE00D1CF69 /* CZLaunchVCDemoVC.h */,
 				18087EAC1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m */,
 				18087EAD1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib */,
@@ -270,11 +285,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */,
+				18087EC11E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 in Resources */,
 				18E4E2BD1E7A63A10058716B /* LaunchScreen.storyboard in Resources */,
 				18E4E2BA1E7A63A10058716B /* Assets.xcassets in Resources */,
 				18087EBB1E811E0900D1CF69 /* CZColorDemoVC.xib in Resources */,
+				18087EC31E8123FE00D1CF69 /* launch0.png in Resources */,
+				18087EC41E8123FE00D1CF69 /* launch1.png in Resources */,
+				18087EC51E8123FE00D1CF69 /* launch2.png in Resources */,
 				18087EAF1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib in Resources */,
 				18E4E2B81E7A63A10058716B /* Main.storyboard in Resources */,
+				18087EC21E8123FE00D1CF69 /* Hotel-California_-Short-The-Eagles.gif in Resources */,
 				18087EB61E811DD300D1CF69 /* CZImageCacheDemoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

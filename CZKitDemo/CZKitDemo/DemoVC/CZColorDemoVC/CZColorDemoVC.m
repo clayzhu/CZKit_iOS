@@ -7,7 +7,7 @@
 //
 
 #import "CZColorDemoVC.h"
-#import "UIColor+CZColor.h"
+#import "CZKit.h"
 
 static NSString *kColorCell = @"ColorCell";
 

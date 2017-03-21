@@ -7,7 +7,7 @@
 //
 
 #import "CZImageCacheDemoVC.h"
-#import "CZImageCache.h"
+#import "CZKit.h"
 
 @interface CZImageCacheDemoVC ()
 @property (weak, nonatomic) IBOutlet UILabel *allCacheSizeLbl;

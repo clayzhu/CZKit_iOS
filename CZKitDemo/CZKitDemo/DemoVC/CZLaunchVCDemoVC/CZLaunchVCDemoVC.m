@@ -7,7 +7,7 @@
 //
 
 #import "CZLaunchVCDemoVC.h"
-#import "CZLaunchVC.h"
+#import "CZKit.h"
 
 @interface CZLaunchVCDemoVC () <UITableViewDataSource, UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;

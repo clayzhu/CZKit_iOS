@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18087EAE1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18087EAC1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m */; };
+		18087EAF1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EAD1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib */; };
 		189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736411E7F789F00B45C15 /* CZLaunchVC.m */; };
 		1897366E1E7FB25E00B45C15 /* UIColor+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897366D1E7FB25E00B45C15 /* UIColor+CZColor.m */; };
 		189736721E7FB2DB00B45C15 /* CZImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736711E7FB2DB00B45C15 /* CZImageCache.m */; };
@@ -20,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18087EAB1E811ABE00D1CF69 /* CZLaunchVCDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLaunchVCDemoVC.h; sourceTree = "<group>"; };
+		18087EAC1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLaunchVCDemoVC.m; sourceTree = "<group>"; };
+		18087EAD1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZLaunchVCDemoVC.xib; sourceTree = "<group>"; };
 		189736401E7F789F00B45C15 /* CZLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLaunchVC.h; sourceTree = "<group>"; };
 		189736411E7F789F00B45C15 /* CZLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLaunchVC.m; sourceTree = "<group>"; };
 		189736431E7F796300B45C15 /* CZKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZKit.h; sourceTree = "<group>"; };
@@ -51,6 +56,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18087EAA1E811A8A00D1CF69 /* CZLaunchVCDemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				18087EAB1E811ABE00D1CF69 /* CZLaunchVCDemoVC.h */,
+				18087EAC1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m */,
+				18087EAD1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib */,
+			);
+			path = CZLaunchVCDemoVC;
+			sourceTree = "<group>";
+		};
+		18087EB01E811D8200D1CF69 /* CZColorDemoVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CZColorDemoVC;
+			sourceTree = "<group>";
+		};
+		18087EB11E811D8200D1CF69 /* CZImageCacheDemoVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CZImageCacheDemoVC;
+			sourceTree = "<group>";
+		};
 		1897363F1E7F789F00B45C15 /* CZLaunchVC */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +145,9 @@
 		18C64BAD1E7B8A31001A1017 /* DemoVC */ = {
 			isa = PBXGroup;
 			children = (
+				18087EB01E811D8200D1CF69 /* CZColorDemoVC */,
+				18087EB11E811D8200D1CF69 /* CZImageCacheDemoVC */,
+				18087EAA1E811A8A00D1CF69 /* CZLaunchVCDemoVC */,
 			);
 			path = DemoVC;
 			sourceTree = "<group>";
@@ -224,6 +256,7 @@
 				18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */,
 				18E4E2BD1E7A63A10058716B /* LaunchScreen.storyboard in Resources */,
 				18E4E2BA1E7A63A10058716B /* Assets.xcassets in Resources */,
+				18087EAF1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib in Resources */,
 				18E4E2B81E7A63A10058716B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +270,7 @@
 			files = (
 				189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */,
 				189736721E7FB2DB00B45C15 /* CZImageCache.m in Sources */,
+				18087EAE1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m in Sources */,
 				1897366E1E7FB25E00B45C15 /* UIColor+CZColor.m in Sources */,
 				18E4E2B51E7A63A10058716B /* ViewController.m in Sources */,
 				18E4E2B21E7A63A10058716B /* AppDelegate.m in Sources */,

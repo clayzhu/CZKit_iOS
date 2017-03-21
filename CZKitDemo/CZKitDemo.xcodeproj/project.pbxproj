@@ -11,6 +11,8 @@
 		18087EAF1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EAD1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib */; };
 		18087EB51E811DD300D1CF69 /* CZImageCacheDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18087EB31E811DD300D1CF69 /* CZImageCacheDemoVC.m */; };
 		18087EB61E811DD300D1CF69 /* CZImageCacheDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EB41E811DD300D1CF69 /* CZImageCacheDemoVC.xib */; };
+		18087EBA1E811E0900D1CF69 /* CZColorDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18087EB81E811E0900D1CF69 /* CZColorDemoVC.m */; };
+		18087EBB1E811E0900D1CF69 /* CZColorDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18087EB91E811E0900D1CF69 /* CZColorDemoVC.xib */; };
 		189736421E7F789F00B45C15 /* CZLaunchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736411E7F789F00B45C15 /* CZLaunchVC.m */; };
 		1897366E1E7FB25E00B45C15 /* UIColor+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897366D1E7FB25E00B45C15 /* UIColor+CZColor.m */; };
 		189736721E7FB2DB00B45C15 /* CZImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 189736711E7FB2DB00B45C15 /* CZImageCache.m */; };
@@ -30,6 +32,9 @@
 		18087EB21E811DD300D1CF69 /* CZImageCacheDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZImageCacheDemoVC.h; sourceTree = "<group>"; };
 		18087EB31E811DD300D1CF69 /* CZImageCacheDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZImageCacheDemoVC.m; sourceTree = "<group>"; };
 		18087EB41E811DD300D1CF69 /* CZImageCacheDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZImageCacheDemoVC.xib; sourceTree = "<group>"; };
+		18087EB71E811E0900D1CF69 /* CZColorDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZColorDemoVC.h; sourceTree = "<group>"; };
+		18087EB81E811E0900D1CF69 /* CZColorDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZColorDemoVC.m; sourceTree = "<group>"; };
+		18087EB91E811E0900D1CF69 /* CZColorDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZColorDemoVC.xib; sourceTree = "<group>"; };
 		189736401E7F789F00B45C15 /* CZLaunchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZLaunchVC.h; sourceTree = "<group>"; };
 		189736411E7F789F00B45C15 /* CZLaunchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZLaunchVC.m; sourceTree = "<group>"; };
 		189736431E7F796300B45C15 /* CZKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZKit.h; sourceTree = "<group>"; };
@@ -74,6 +79,9 @@
 		18087EB01E811D8200D1CF69 /* CZColorDemoVC */ = {
 			isa = PBXGroup;
 			children = (
+				18087EB71E811E0900D1CF69 /* CZColorDemoVC.h */,
+				18087EB81E811E0900D1CF69 /* CZColorDemoVC.m */,
+				18087EB91E811E0900D1CF69 /* CZColorDemoVC.xib */,
 			);
 			path = CZColorDemoVC;
 			sourceTree = "<group>";
@@ -264,6 +272,7 @@
 				18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */,
 				18E4E2BD1E7A63A10058716B /* LaunchScreen.storyboard in Resources */,
 				18E4E2BA1E7A63A10058716B /* Assets.xcassets in Resources */,
+				18087EBB1E811E0900D1CF69 /* CZColorDemoVC.xib in Resources */,
 				18087EAF1E811ABE00D1CF69 /* CZLaunchVCDemoVC.xib in Resources */,
 				18E4E2B81E7A63A10058716B /* Main.storyboard in Resources */,
 				18087EB61E811DD300D1CF69 /* CZImageCacheDemoVC.xib in Resources */,
@@ -285,6 +294,7 @@
 				18E4E2B51E7A63A10058716B /* ViewController.m in Sources */,
 				18E4E2B21E7A63A10058716B /* AppDelegate.m in Sources */,
 				18E4E2AF1E7A63A10058716B /* main.m in Sources */,
+				18087EBA1E811E0900D1CF69 /* CZColorDemoVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

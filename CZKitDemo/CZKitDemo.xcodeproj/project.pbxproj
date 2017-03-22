@@ -176,9 +176,9 @@
 		18C64BAD1E7B8A31001A1017 /* DemoVC */ = {
 			isa = PBXGroup;
 			children = (
-				18087EB01E811D8200D1CF69 /* CZColorDemoVC */,
-				18087EB11E811D8200D1CF69 /* CZImageCacheDemoVC */,
 				18087EAA1E811A8A00D1CF69 /* CZLaunchVCDemoVC */,
+				18087EB11E811D8200D1CF69 /* CZImageCacheDemoVC */,
+				18087EB01E811D8200D1CF69 /* CZColorDemoVC */,
 			);
 			path = DemoVC;
 			sourceTree = "<group>";

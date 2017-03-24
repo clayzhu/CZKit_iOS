@@ -55,4 +55,7 @@
 /** 生成一个随机颜色 */
 + (UIColor *)randomColor;
 
+/** 根据图片获取图片的主色调 */
++ (UIColor *)primaryColorWithImage:(UIImage *)image;
+
 @end

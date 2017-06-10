@@ -34,6 +34,8 @@
 		B7B92BAB1EEC46EC00859F70 /* CZInspectableButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B92BA31EEC46EB00859F70 /* CZInspectableButton.m */; };
 		B7B92BAC1EEC46EC00859F70 /* CZInspectableTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B92BA51EEC46EB00859F70 /* CZInspectableTextField.m */; };
 		B7B92BAD1EEC46EC00859F70 /* CZInspectableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B92BA71EEC46EB00859F70 /* CZInspectableView.m */; };
+		B7B92BB21EEC493A00859F70 /* CZInspectableViewDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B92BB01EEC493A00859F70 /* CZInspectableViewDemoVC.m */; };
+		B7B92BB31EEC493A00859F70 /* CZInspectableViewDemoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7B92BB11EEC493A00859F70 /* CZInspectableViewDemoVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +83,9 @@
 		B7B92BA51EEC46EB00859F70 /* CZInspectableTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableTextField.m; sourceTree = "<group>"; };
 		B7B92BA61EEC46EB00859F70 /* CZInspectableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableView.h; sourceTree = "<group>"; };
 		B7B92BA71EEC46EB00859F70 /* CZInspectableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableView.m; sourceTree = "<group>"; };
+		B7B92BAF1EEC493A00859F70 /* CZInspectableViewDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZInspectableViewDemoVC.h; sourceTree = "<group>"; };
+		B7B92BB01EEC493A00859F70 /* CZInspectableViewDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZInspectableViewDemoVC.m; sourceTree = "<group>"; };
+		B7B92BB11EEC493A00859F70 /* CZInspectableViewDemoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CZInspectableViewDemoVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +203,7 @@
 				18087EAA1E811A8A00D1CF69 /* CZLaunchVCDemoVC */,
 				18087EB11E811D8200D1CF69 /* CZImageCacheDemoVC */,
 				18087EB01E811D8200D1CF69 /* CZColorDemoVC */,
+				B7B92BAE1EEC491A00859F70 /* CZInspectableViewDemoVC */,
 			);
 			path = DemoVC;
 			sourceTree = "<group>";
@@ -280,6 +286,16 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B7B92BAE1EEC491A00859F70 /* CZInspectableViewDemoVC */ = {
+			isa = PBXGroup;
+			children = (
+				B7B92BAF1EEC493A00859F70 /* CZInspectableViewDemoVC.h */,
+				B7B92BB01EEC493A00859F70 /* CZInspectableViewDemoVC.m */,
+				B7B92BB11EEC493A00859F70 /* CZInspectableViewDemoVC.xib */,
+			);
+			path = CZInspectableViewDemoVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -339,6 +355,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C64BA81E7B86E8001A1017 /* DemoVCList.plist in Resources */,
+				B7B92BB31EEC493A00859F70 /* CZInspectableViewDemoVC.xib in Resources */,
 				18087EC11E8123FE00D1CF69 /* Hotel California_ Short - The Eagles.mp4 in Resources */,
 				18E4E2BD1E7A63A10058716B /* LaunchScreen.storyboard in Resources */,
 				18E4E2BA1E7A63A10058716B /* Assets.xcassets in Resources */,
@@ -364,6 +381,7 @@
 				B7B92BAC1EEC46EC00859F70 /* CZInspectableTextField.m in Sources */,
 				18087EB51E811DD300D1CF69 /* CZImageCacheDemoVC.m in Sources */,
 				189736721E7FB2DB00B45C15 /* CZImageCache.m in Sources */,
+				B7B92BB21EEC493A00859F70 /* CZInspectableViewDemoVC.m in Sources */,
 				B7B92BAB1EEC46EC00859F70 /* CZInspectableButton.m in Sources */,
 				18087EAE1E811ABE00D1CF69 /* CZLaunchVCDemoVC.m in Sources */,
 				1897366E1E7FB25E00B45C15 /* UIColor+CZColor.m in Sources */,

@@ -12,5 +12,11 @@
 #import "CZLaunchVC.h"
 #import "CZImageCache.h"
 #import "UIColor+CZColor.h"
+#import "UIView+CZInspectableView.h"
+#import "UITextField+CZInspectableTextField.h"
+#import "UIButton+CZInspectableButton.h"
+#import "CZInspectableView.h"
+#import "CZInspectableTextField.h"
+#import "CZInspectableButton.h"
 
 #endif /* CZKit_h */
